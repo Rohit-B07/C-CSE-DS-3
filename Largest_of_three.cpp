@@ -23,9 +23,5 @@ else if ((b>a) && (b>c))
 else{
     cout << c ;
 }
-
-
-
-
     return 0;
 }
