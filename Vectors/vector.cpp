@@ -8,12 +8,13 @@ int main(){
     v.push_back('D');
     v.push_back('L');
 
-
+    // cout << v.back();
+    // cout << v.front();
 
     // v.pop_back();
     // v.insert(v.begin()+2,'C');
 
-    v.insert(v.end()-2,'K');
+    // v.insert(v.end()-2,'K');
  
 
     // v.erase(v.begin()+2);
