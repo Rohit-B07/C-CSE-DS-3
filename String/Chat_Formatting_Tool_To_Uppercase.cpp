@@ -1,18 +1,15 @@
-//Reverse String – Digital Lock System
-
 #include <iostream>
 #include <string>
-#include <algorithm>
+#include <cctype>
 
 using namespace std;
 
 int main() {
     string s;
     cin >> s;
-
-    reverse(s.begin(), s.end());
-
+    for (char &c : s) {
+        c = toupper(c);
+    }
     cout << s << endl;
-
     return 0;
 }
